@@ -1,0 +1,11 @@
+{
+    "orgName": "Salesforce",
+    "edition": "Developer",
+    "features": ["AuthorApex", "LightningWebComponents"],
+    "settings": {
+      "orgPreferenceSettings": {
+        "s1DesktopEnabled": true,
+        "chatterEnabled": true
+      }
+    }
+  }
