@@ -25,6 +25,6 @@ public with sharing class MyCrudController {
         } else {
             // 권한이 없을 경우 예외 발생
             throw new System.Exception('Access Denied: Insufficient permissions to create Account or its fields.');
-        }
+        } //Invalid type: AuthorizationException (12:19) 오류발생 해결안됨 ㅠ
     }
 }
